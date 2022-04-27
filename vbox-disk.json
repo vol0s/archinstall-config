@@ -13,16 +13,8 @@
                 "type": "primary"
             },
             {
-                "btrfs": {
-                    "subvolumes": {
-                        "@.snapshots": "/.snapshots",
-                        "@home": "/home",
-                        "@log": "/var/log",
-                        "@pkgs": "/var/cache/pacman/pkg"
-                    }
-                },
                 "filesystem": {
-                    "format": "btrfs"
+                    "format": "ext4"
                 },
                 "wipe": true,
                 "mountpoint": "/",

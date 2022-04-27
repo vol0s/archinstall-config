@@ -1,0 +1,30 @@
+{
+    "audio": "pipewire",
+    "bootloader": "grub-install",
+    "filesystem": "ext4",
+    "gfx_driver": "VMware / VirtualBox (open-source)",
+    "harddrives": [
+        "/dev/sda"
+    ],
+    "swap": false,
+    "hostname": "archlab",
+    "kernels": [
+        "linux-zen"
+    ],
+    "keyboard-language": "es",
+    "mirror-region": { 
+        "Spain": {
+            "https://mirror.librelabucm.org/archlinux/$repo/os/$arch": true
+        }
+     },
+    "nic": {
+        "NetworkManager": true,
+        "nic": "Use NetworkManager (necessary to configure internet graphically in GNOME and KDE)"
+    },
+    "ntp": true,
+    "packages": ["nano", "git", "wget", "curl", "neofetch"],
+    "profile": "minimal",
+    "sys-encoding": "utf-8",
+    "sys-language": "es_ES",
+    "timezone": "Europe/Madrid",
+}

@@ -1,12 +1,14 @@
 {
     "audio": "pipewire",
     "bootloader": "grub-install",
-    "filesystem": "ext4",
-    "gfx_driver": "VMware / VirtualBox (open-source)",
+    "config": null,
+    "creds": null,
+    "debug": false,
+    "disk_layouts": null,
+    "dry_run": false,
     "harddrives": [
         "/dev/sda"
     ],
-    "swap": false,
     "hostname": "archlab",
     "kernels": [
         "linux-zen"
@@ -17,14 +19,23 @@
             "https://mirror.librelabucm.org/archlinux/$repo/os/$arch": true
         }
      },
+    "mount_point": null,
     "nic": {
         "NetworkManager": true,
         "nic": "Use NetworkManager (necessary to configure internet graphically in GNOME and KDE)"
     },
     "ntp": true,
     "packages": ["nano", "git", "wget", "curl", "neofetch"],
-    "profile": "minimal",
+    "plugin": null,
+    "profile": {
+        "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/minimal.py"
+    },
+    "script": "guided",
+    "silent": false,
+    "gfx_driver": "VMware / VirtualBox (open-source)",
+    "swap": false,
     "sys-encoding": "utf-8",
     "sys-language": "es_ES",
-    "timezone": "Europe/Madrid"
+    "timezone": "Europe/Madrid",
+    "version": "2.3.3"
 }

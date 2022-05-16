@@ -1,11 +1,9 @@
 {
+    "archinstall-language": "Spanish",
     "audio": "pipewire",
     "bootloader": "grub-install",
-    "config": null,
-    "creds": null,
+    "config_version": "2.4.2",
     "debug": false,
-    "disk_layouts": null,
-    "dry_run": false,
     "harddrives": [
         "/dev/sda"
     ],
@@ -13,7 +11,7 @@
     "kernels": [
         "linux-zen"
     ],
-    "keyboard-language": "es",
+    "keyboard-layout": "es",
     "mirror-region": { 
         "Spain": {
             "https://mirror.librelabucm.org/archlinux/$repo/os/$arch": true
@@ -21,21 +19,19 @@
      },
     "mount_point": null,
     "nic": {
-        "NetworkManager": true,
-        "nic": "Use NetworkManager (necessary to configure internet graphically in GNOME and KDE)"
+        "dhcp": true,
+        "dns": null,
+        "gateway": null,
+        "iface": null,
+        "ip": null,
+        "type": null
     },
-    "ntp": true,
-    "packages": ["nano", "git", "wget", "curl", "neofetch"],
     "plugin": null,
     "profile": {
         "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/minimal.py"
     },
     "script": "guided",
     "silent": false,
-    "gfx_driver": "VMware / VirtualBox (open-source)",
-    "swap": false,
-    "sys-encoding": "utf-8",
-    "sys-language": "es_ES",
     "timezone": "Europe/Madrid",
-    "version": "2.3.3"
+    "version": "2.4.2"
 }

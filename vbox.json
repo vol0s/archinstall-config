@@ -24,7 +24,7 @@
         "gateway": null,
         "iface": null,
         "ip": null,
-        "type": null
+        "type": "nm"
     },
     "plugin": null,
     "profile": {
